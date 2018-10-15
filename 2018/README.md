@@ -5,7 +5,7 @@
 |Pwn|7|
 |[Crypto](Crypto/)|5|
 |Web|5|
-|Reversing|9|
+|Reversing(Reversing/)|9|
 |[Forensics](Forensics/)|6|
 
 ## Directory Structure
