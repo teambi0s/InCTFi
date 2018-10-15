@@ -6,7 +6,7 @@
 |[Crypto](Crypto/)|5|
 |Web|5|
 |Reversing|9|
-|Forensics|6|
+|[Forensics](Forensics/)|6|
 
 ## Directory Structure
 There are five sub-directories in this directory (one for each field):
