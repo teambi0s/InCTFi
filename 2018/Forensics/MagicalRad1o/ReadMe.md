@@ -1,6 +1,6 @@
 #Magical rad1o
 
-**Challenge File Archive**: [Handout/Challenge_Link.md](Handout/Challenge_Link.md) 
+**Challenge File Archive**: [Handout/ChallengeLink.md](Handout/ChallengeLink.md) 
 
 **Author**: [cr4ck3t](https://twitter.com/nambiar_kartuzz)
 
