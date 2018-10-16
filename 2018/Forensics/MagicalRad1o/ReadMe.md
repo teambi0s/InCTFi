@@ -8,4 +8,5 @@
 
 **Writeup**: [Full writeup by challenge author](https://karthik967.wordpress.com/2018/10/15/magical-rad1o-writeup-inctf-international-2018/)
 
+**Short Solution**: StegoMagic + QR + Malbolge 
 
