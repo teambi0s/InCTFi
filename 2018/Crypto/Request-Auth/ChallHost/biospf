@@ -1,0 +1,13 @@
+service biospf
+{
+	disable = no
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = biospf
+	type = UNLISTED
+	bind = ec2-18-224-31-42.us-east-2.compute.amazonaws.com
+	port = 1337
+	server = /home/biospf/run.sh
+	instances = 50	
+}
