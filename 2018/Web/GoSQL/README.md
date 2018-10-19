@@ -1,6 +1,6 @@
 # GoSQL
 
-**Description** : I am using Ubuntu 16.04 and , Is the database is secure??   
+**Description** : I am using Ubuntu 16.04 and, is the database is secure??   
 
 **Author** : [SpyD3r](https://twitter.com/tarunkantg)  
 
