@@ -1,0 +1,13 @@
+service ecdh
+{
+	disable = no
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = ecdh
+	type = UNLISTED
+	bind = ec2-18-224-69-126.us-east-2.compute.amazonaws.com
+	port = 1337
+	server = /home/ecdh/run.sh
+	instances = 40
+}
