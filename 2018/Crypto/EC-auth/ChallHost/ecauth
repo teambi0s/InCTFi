@@ -1,0 +1,13 @@
+service ecauth
+{
+	disable = no
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = ecauth
+	type = UNLISTED
+	bind = ec2-18-191-200-160.us-east-2.compute.amazonaws.com
+	port = 1337
+	server = /home/ecauth/run.sh
+	instances = 50
+}
