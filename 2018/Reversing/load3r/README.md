@@ -2,7 +2,7 @@
 ![picture](load3r.png)  
 
 
-**Challenge File **: [boot_try.bin](Handout/boot_try.bin)  
+**Challenge File**: [boot_try.bin](Handout/boot_try.bin)  
 
 **Authors**: [b3y0nd3r](https://twitter.com/GeethnaTk), [r00tus3r](https://twitter.com/r00tus3r)
 
