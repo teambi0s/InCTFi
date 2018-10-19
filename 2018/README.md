@@ -2,7 +2,7 @@
 
 |Category|# of challs|
 |:-:|:-:|
-|Pwn|7|
+|[Pwn](Pwn/)|7|
 |[Crypto](Crypto/)|5|
 |Web|5|
 |[Reversing](Reversing/)|9|
