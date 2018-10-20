@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+        <head>
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.png'>
+		<title>S3cur3 Uplo4d3r</title>
+                <style>
+		  body {
+                    padding-left: 15%;
+                    padding-top : 5%;
+		    padding-bottom : 5%;
+		    padding-right: 15%;
+                  }
+                  p {
+                    text-align : left;
+                    font-size : 2.5em;
+                    font-weight: bold;
+                  }
+		  .button {
+    		    background-color: #4CAF50; /* Green */
+    		    border: none;
+    		    color: white;
+      		    padding: 10px 20px;
+    		    text-align: center;
+    		    text-decoration: none;
+    		    display: inline-block;
+   	 	    font-size: 16px;
+ 	    	    margin: 4px 2px;
+  	  	    -webkit-transition-duration: 0.4s; /* Safari */
+    		    transition-duration: 0.4s;
+    		    cursor: pointer;
+		  }
+		  .button1 {
+    		    background-color: white;
+    		    color: black;
+    		    border: 2px solid #555555;
+		  }
+		  .button1:hover {
+    		    background-color: #555555;
+    		    color: white;
+		  }
+                </style>
+	</head>
+        <body>
+
+                <form action="upload.php" method="post" enctype="multipart/form-data" style="padding: 15px; border: 5px solid black;">
+                        <p>The <strike>Most Secure</strike> File Uploader</p>
+		        <h3 style="font-weight: 500;">I made this uploader for my younger brother to help him store some of his photos. But he messed up some of the code and I cant fix it.</h3><br>
+                        <input type="file" name="fileToUpload" id="fileToUpload">
+                        <button type="submit" name="submit" class="button button1">Upload</button>
+                </form>
+
+        </body>
+</html>
