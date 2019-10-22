@@ -1,0 +1,13 @@
+service lsbit
+{
+	disable = no
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = ubuntu
+	type = UNLISTED
+	bind = 0.0.0.0
+	port = 3197
+	server = /home/ubuntu/lsbit/run.sh
+	instances = 50
+}
