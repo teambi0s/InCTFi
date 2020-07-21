@@ -4,7 +4,7 @@
 |:-:|:-:|
 |[Pwn](Pwn/)|7|
 |[Crypto](Crypto/)|5|
-|Web|5|
+|[Web](Web/)|5|
 |[Reversing](Reversing/)|9|
 |[Forensics](Forensics/)|6|
 
