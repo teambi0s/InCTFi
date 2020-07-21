@@ -1,0 +1,3678 @@
+mov cnt r1 91
+mov cnt r4 65 
+mov cnt r3 90
+str addr r4 100 
+str addr r3 101
+out r1
+mov cnt r1 42
+out r1
+mov cnt r1 93
+out r1
+mov cnt r1 32
+out r1
+mov cnt r1 87
+out r1
+jmp 0
+mov cnt r1 101 
+out r1
+mov cnt r1 108
+out r1
+mov cnt r1 99
+out r1
+mov cnt r1 111
+out r1
+mov cnt r1 109
+out r1
+mov cnt r1 101
+out r1
+mov cnt r1 58
+out r1
+mov cnt r1 10
+out r1
+# Starting banner ends
+mov cnt r5 200
+# input character and store - 1
+in r1
+mov cnt r2 243
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 241
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 145
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 105
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 67
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 65
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 93
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 105
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 220
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 146
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 234
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 91
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 165
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 235
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 44
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 196
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 97
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 237
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 52
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 236
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 126
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 96
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 24
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 91
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 99
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 82
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 246
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 226
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 183
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 52
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 29
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 99
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 179
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 126
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 150
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 55
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 64
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 138
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 112
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 125
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 113
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 181
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 218
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 215
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 122
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 236
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 174
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 190
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 170
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 239
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 243
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 229
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 209
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 135
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 90
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 148
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 213
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 198
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 176
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 76
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 105
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 194
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 155
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 126
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 148
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 64
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 30
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 175
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 212
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 216
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 143
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 193
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 212
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 162
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 185
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 9
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 93
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 111
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 196
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 136
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 153
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 244
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 141
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 174
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 89
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 186
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 18
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 111
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 195
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 154
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 169
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 233
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 134
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 1
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 178
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 60
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 247
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 100
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 155
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 243
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 165
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 11
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 146
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 159
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 29
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 133
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 34
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 108
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 81
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 209
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 215
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 207
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 134
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 52
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 187
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 181
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 103
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 108
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 120
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 214
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 64
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 206
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 87
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 2
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 129
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 130
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 134
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 252
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 177
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 228
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 234
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 106
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 207
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 237
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 155
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 135
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 160
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 27
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 212
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 172
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 77
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 133
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 203
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 18
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 132
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 99
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 132
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 47
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 10
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 215
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 104
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 53
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 176
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 53
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 32
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 148
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 154
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 231
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 76
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 85
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 106
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 187
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 1
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 85
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 249
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 208
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 208
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 138
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 118
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 244
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 82
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 18
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 82
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 194
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 145
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 111
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 64
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 59
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 136
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 64
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 207
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 50
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 209
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 159
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 164
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 186
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 248
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 97
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 247
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 226
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 189
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 52
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 143
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 202
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 244
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 236
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 86
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 153
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 251
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 52
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 101
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 146
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 108
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 125
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 232
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 139
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 51
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 152
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 25
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 138
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 135
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 2
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 222
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 137
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 176
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 230
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 32
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 24
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 120
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 186
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 68
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 138
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 150
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 207
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 146
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 215
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 243
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 47
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 121
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 247
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 178
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 204
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 172
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 150
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 185
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 237
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 199
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 167
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 141
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 226
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 253
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 55
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 153
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 88
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 92
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 43
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 248
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 205
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 253
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 100
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 34
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 176
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 151
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 25
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 200
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 30
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 53
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 187
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 29
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 145
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 25
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 11
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 178
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 189
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 88
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 169
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 147
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 122
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 248
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 249
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 124
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 68
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 122
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 202
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 224
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 169
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 98
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 100
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 146
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 204
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 103
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 99
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 34
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 27
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 238
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 232
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 232
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 165
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 70
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 213
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 241
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 178
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 104
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 18
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 128
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 143
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 250
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 60
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 86
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 96
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 181
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 147
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 65
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 230
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 81
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 229
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 128
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 154
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 222
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 122
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 76
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 29
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 106
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 152
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 50
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 100
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 167
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 97
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 44
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 10
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 228
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 220
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 179
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 55
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 103
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 194
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 68
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 169
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 50
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 194
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 200
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 214
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 9
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 92
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 141
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 162
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 170
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 223
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 250
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 131
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 53
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 185
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 223
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 241
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 112
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 190
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 167
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 224
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 251
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 65
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 167
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 125
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 185
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 194
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 233
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 230
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 240
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 163
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 43
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 233
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 30
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 223
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 27
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 150
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 2
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 34
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 205
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 120
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 139
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 179
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 104
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 233
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 50
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 67
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 25
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 242
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 198
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 222
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 186
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 66
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 45
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 98
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 200
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 222
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 232
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 60
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 129
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 223
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 160
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 173
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 179
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 195
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 235
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 112
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 50
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 202
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 127
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 200
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 158
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 181
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 213
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 49
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 43
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 124
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 18
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 87
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 35
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 172
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 86
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 239
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 55
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 243
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 92
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 158
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 138
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 112
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 160
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 11
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 32
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 24
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 178
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 233
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 81
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 228
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 216
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 203
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 162
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 248
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 133
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 190
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 127
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 172
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 103
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 164
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 207
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 109
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 144
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 164
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 192
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 103
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 208
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 168
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 147
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 96
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 80
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 188
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 153
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 104
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 69
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 85
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 89
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 44
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 121
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 104
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 212
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 204
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 234
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 34
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 237
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 131
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 42
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 169
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 44
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 32
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 114
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 193
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 56
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 253
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 38
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 208
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 85
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 77
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 1
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 106
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 195
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 51
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 51
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 47
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 97
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 73
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 10
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 120
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 154
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 181
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 157
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 43
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 113
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 185
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 126
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 47
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 215
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 89
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 11
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 22
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 21
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 136
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 59
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 25
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 97
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 226
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 137
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 94
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 210
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 58
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 199
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 43
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 118
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 156
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 105
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 237
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 123
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 179
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 163
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 152
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 204
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 116
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 49
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 4
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 79
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 53
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 175
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 102
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 199
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 9
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 20
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 86
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 87
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 17
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 78
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 30
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 249
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 59
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 223
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 14
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 71
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 39
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 95
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 157
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 143
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 87
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 65
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 41
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 88
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 168
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 135
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 245
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 220
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 47
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 70
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 120
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 19
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 81
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 10
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 170
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 59
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 119
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 65
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 74
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 164
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 48
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 48
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 189
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 37
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 108
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 201
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 115
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 8
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 46
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 101
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 11
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 251
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 36
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 110
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 90
+chk gt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 133
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 40
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 53
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 180
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 117
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 59
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 249
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 62
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 81
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 88
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 221
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 136
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 112
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 168
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 158
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 76
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 60
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 211
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 225
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 114
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 0
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 76
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 107
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 227
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 61
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 193
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 107
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 63
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 57
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 200
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 143
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 175
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 172
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 75
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 219
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 210
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 158
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 83
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 33
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 2
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 160
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 3
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 12
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 5
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 9
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 113
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 30
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 29
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 16
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 241
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 6
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 13
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 28
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 182
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 9
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 31
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 33
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 23
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 205
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 7
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 217
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 26
+chk lt r1 r2
+jmp chk 4095
+in r1
+mov cnt r2 15
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 125
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 54
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 24
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 93
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 89
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 125
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 92
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 228
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 55
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 118
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 218
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 84
+chk lt r1 r2
+jmp chk 4095
+mov cnt r2 140
+chk gt r1 r2
+jmp chk 4095
+mov cnt r2 72
+chk lt r1 r2
+jmp chk 4095
+# Sanity check 
+mov cnt r5 200
+ld reg r2 r5
+add r5 r5 1 
+out r2
+ld reg r2 r5
+add r5 r5 1 
+out r2
+ld reg r2 r5
+add r5 r5 1 
+out r2
+# Win case
+mov cnt r2 67 - Win case starts here
+mov cnt r3 73
+xor r1 r2 r3
+out r1
+mov cnt r4 74
+mov cnt r5 17
+xor r3 r4 r5
+out r3
+mov cnt r1 46
+mov cnt r2 4
+xor r0 r1 r2
+out r0
+mov cnt r3 84
+mov cnt r4 9
+xor r2 r3 r4
+out r2
+mov cnt r2 46
+mov cnt r3 14
+xor r1 r2 r3
+out r1
+mov cnt r4 122
+mov cnt r5 35
+xor r3 r4 r5
+out r3
+mov cnt r4 58
+mov cnt r5 85
+xor r3 r4 r5
+out r3
+mov cnt r3 106
+mov cnt r4 31
+xor r2 r3 r4
+out r2
+mov cnt r4 12
+mov cnt r5 44
+xor r3 r4 r5
+out r3
+mov cnt r3 32
+mov cnt r4 87
+xor r2 r3 r4
+out r2
+mov cnt r2 8
+mov cnt r3 97
+xor r1 r2 r3
+out r1
+mov cnt r3 14
+mov cnt r4 96
+xor r2 r3 r4
+out r2
+mov cnt r1 21
+mov cnt r2 52
+xor r0 r1 r2
+out r0
+mov cnt r1 87
+mov cnt r2 93
+xor r0 r1 r2
+out r0
+hlt  - Win case ends here
