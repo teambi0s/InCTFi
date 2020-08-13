@@ -1,0 +1,12 @@
+[package]
+name = "jazz"
+version = "0.1.0"
+authors = ["Akul Pillai <contact@akulpillai.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mersenne_twister = "1.1.1"
+rand = "0.4"
+rust-crypto = "0.2.36"
