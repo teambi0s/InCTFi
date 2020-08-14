@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    crypto:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        working_dir: /home/ctf 
+        container_name: bakflip
+        ports:
+            - "9999:1337"
+        expose:
+            - "9999"
+        restart: unless-stopped
+

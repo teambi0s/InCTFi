@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    crypto:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        working_dir: /home/ctf 
+        container_name: ecchallenge
+        ports:
+            - "3333:1337"
+        expose:
+            - "3333"
+        restart: unless-stopped
+
