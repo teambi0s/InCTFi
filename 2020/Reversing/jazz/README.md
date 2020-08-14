@@ -6,7 +6,8 @@
 
 ### Short Writeup
 
-TODO: add solution script
+The challenge implements a simple variant of Substitution Cipher where multiple tables are created using a seeded random function. The challenge can be solved in multiple ways, either by creating the tables using the same seed, by dumping the tables or by running a single byte brute force. To make it less obvious that a single byte brute force is possible, AES encryption with known key was added at the end.
+The challenge was a Rust release binary. Making the reversing process more challenging than usual.
 
 ### Challenge Author
 
