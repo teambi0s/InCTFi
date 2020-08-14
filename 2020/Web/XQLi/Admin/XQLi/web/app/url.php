@@ -3,42 +3,16 @@
 <?php include("config.php"); ?>
 
 <html>
-<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <head><title>Conference Room?</title></head>
     <form name="URL" method="POST">
-    <br>url  <input type="text" name="url"><br><br>
-    <input type="submit"  name="sub" value="submit"><br><br>
-    <div class="g-recaptcha" data-sitekey="6LcurrYZAAAAAESzl3zqNfBiS4XzFE1FrFXmPaZR"></div>
+    <br>url  <input type="text" name="url">
+    <input type="submit"  name="sub" value="submit">
     </form>
     <p5>I would like to let you know that the max length is 35</p5><br><br>
 </html>
 
 <?php
-
-function checkSubmit(){
-    if(isset($_POST['g-recaptcha-response'])){
-        $captcha=$_POST['g-recaptcha-response'];
-    }
-    if(!$captcha){
-        echo '<h2>Please check the the captcha form.</h2>';
-        exit;
-    }
-    $secretKey = "6LcurrYZAAAAAJdfb6D5dtIUqN1lgeBKD_wU2f7l";
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
-    $response = file_get_contents($url);
-    $responseKeys = json_decode($response,true);
-    if($responseKeys["success"]) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
-
-
-
-if (checkSubmit()){
+if (isset($_POST['sub'])){
     $cook=$_POST['url'];
     $url = filter_var($cook, FILTER_SANITIZE_URL);
 
@@ -65,5 +39,3 @@ if (checkSubmit()){
 <?php else : ?>
     <?php header("location:index.php"); ?>
 <?php endif; ?>
-
-
