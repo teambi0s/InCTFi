@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Secure Note </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #69c8e7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #69c8e7;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Create A Note</h3>
+
+<div class="container">
+  <form action="/note/add/api">
+    <label for="fname">User key</label>
+    <input type="text" id="fname" name="key" placeholder="Enter your key..">
+
+    <label for="subject">Note</label>
+    <textarea id="subject" name="note" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Create">
+  </form>
+</div>
+
+</body>
+</html>
+
