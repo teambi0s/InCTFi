@@ -1,0 +1,14 @@
+
+
+Query is : Select < your input >
+
+
+filter : concat|information|schema|hex|md5|load|into|outfile|encrypt|compress|code|right|left|cast|procedure|make|mid|substr|php|inject|collation|coalesce|0x|0b|eat|trim|substr|cast|insert|delete|import|group|quote|not|union|replace|or|like|insert|inno|-|\.|#|\/|_|alias|wer|sleep|bench|pad|inkypinky|inky
+
+
+HackFound : preg_match("/$filters/i", $input) || substr_count($input, "from")<1 || substr_count($input, "(")>1 || substr_count($input,"\\")>0 ||substr_count($input, '"')>0 || substr_count($input, "'")>2
+
+
+Successful authentication : if($row['id']==="inkypinky"){' success'}
+
+No kind of bruteforce is required
