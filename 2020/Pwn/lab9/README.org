@@ -1,0 +1,20 @@
+* Lab9
+** Challenge Description
+#+BEGIN_QUOTE
+All your secrets are safe in ring0
+#+END_QUOTE
+
+** Short Writeup
+
+Trigger race condition bug in ~box_resize~ to increase the boxSize, At the same time use mmap handler to 
+map this extended kernel memory into userspace, which effectively gives you read/write access on 
+kernel memory. ~userfaultfd~ can be used to extend the race condition.
+
+- [[https://labs.f-secure.com/assets/BlogFiles/mwri-mmap-exploitation-whitepaper-2017-09-18.pdf][mwri-mmap-exploitation]]
+- [[https://vishnudevtj.github.io/notes/pwnbox-incti-2019][pwnbox-inctfi-2019]]
+
+** Challenge Author
+night_f0x
+
+** Flag
+inctf{y0u_hav3_comp1eted_lab9_now_try_pwnb0x}
