@@ -2,7 +2,7 @@
 
 ### Challenge Description
 
-TODO
+Plan your parties using our latest and secure program.
 
 ### Short Writeup
 
