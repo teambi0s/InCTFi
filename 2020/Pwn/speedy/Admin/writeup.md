@@ -1,4 +1,4 @@
-# InCTF 2020: Speedy
+# Speedy
 
 ## Vulnerability
 
