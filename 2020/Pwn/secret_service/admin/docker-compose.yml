@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  chall:
+    build: .
+    working_dir: /home/ctf
+    container_name: inctfi_chall
+    ports:
+      - "1111:1337"
