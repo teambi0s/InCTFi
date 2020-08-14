@@ -1,0 +1,42 @@
+version: '2'
+
+services:
+   web:
+      image: php7.2-apache
+      build: './web/.'
+      restart: on-failure
+      environment:
+        - ALLOW_OVERRIDE=true
+      links:
+        - db
+      ports:
+        - "7777:80"
+      volumes:
+        - ./web/app:/var/www/html/
+        - ./web/logs:/var/log/apache2/
+      depends_on:
+        - db
+
+   node:
+     image: node:12-slim
+     build: './node/.'
+     restart: on-failure
+     depends_on:
+        - db
+        - web
+     command: bash -c "/usr/wait-for-it.sh --timeout=30 db:3306 && node /bot/index0.js & node /bot/index1.js & node /bot/index2.js & node /bot/index3.js & node /bot/index4.js"
+
+   db:
+     image: mariadb
+     restart: always
+     command: "mysqld --init-file /data/application/init.sql"
+     volumes:
+       - ./db/init.sql:/data/application/init.sql
+       - ./db/mysql:/var/lib/mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: star7ricks
+       MYSQL_USER: star7ricks
+       MYSQL_PASSWORD: star7ricks
+     ports:
+       - "8889:3306"
+

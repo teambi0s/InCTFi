@@ -1,0 +1,15 @@
+{
+  "name": "puppet",
+  "version": "1.0.0",
+  "description": "visit links from a database",
+  "main": "index.js",
+  "dependencies": {
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Az3z3l",
+  "license": "ISC"
+}
