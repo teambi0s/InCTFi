@@ -1,0 +1,15 @@
+* Speedy
+** Challenge Description
+#+BEGIN_QUOTE
+My Safari was slow so I made it fast ! I heard that speed thrills but kills?
+Well prove it !
+#+END_QUOTE
+
+** Short Writeup
+Please refer [[./Admin/writeup.md][Admin/writeup.md]]
+
+** Challenge Author
+[[https://www.twitter.com/sherl0ck__][sherl0ck]]
+
+** Flag
+InCTF{ewwww_s0_sp33d_thrillz_but_h3r3_switch_k1llzzzzzz}

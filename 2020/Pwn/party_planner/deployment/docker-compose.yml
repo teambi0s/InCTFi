@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  chall:
+    build: .
+    working_dir: /home/ctf
+    container_name: party
+    ports:
+      - "2222:1337"
+
