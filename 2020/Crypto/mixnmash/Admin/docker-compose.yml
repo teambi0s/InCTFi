@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    crypto:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        working_dir: /home/ctf 
+        container_name: mix
+        ports:
+            - "6666:1337"
+        expose:
+            - "6666"
+        restart: unless-stopped
+
