@@ -1,0 +1,224 @@
+
+
+<html style="" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload Files</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <style>
+            /*just bg and body style*/
+            .container{
+            background-color:#1E2832;
+            padding-bottom:20px;
+            margin-top:10px;
+            border-radius:5px;
+            }
+            .center{
+            text-align:center;  
+            }
+            #top{
+            margin-top:20px;  
+            }
+            .btn-container{
+            background:#fff;
+            border-radius:5px;
+            padding-bottom:20px;
+            margin-bottom:20px;
+            }
+            .white{
+            color:white;
+            }
+            .imgupload{
+            color:#1E2832;
+            padding-top:40px;
+            font-size:7em;
+            }
+            #namefile{
+            color:black;
+            }
+            h4>strong{
+            color:#ff3f3f
+            }
+            .btn-primary{
+            border-color: #ff3f3f !important;
+            color: #ffffff;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            background-color: #ff3f3f !important;
+            border-color: #ff3f3f !important;
+            }
+            /*these two are set to not display at start*/
+            .imgupload.ok{
+            display:none;
+            color:green;
+            }
+            .imgupload.stop{
+            display:none;
+            color:red;
+            }
+            /*this sets the actual file input to overlay our button*/ 
+            #fileup{
+            opacity: 0;
+            -moz-opacity: 0;
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+            width:200px;
+            cursor: pointer;
+            position:absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 40px;
+            height: 50px;
+            }
+            /*switch between input and not active input*/
+            #submitbtn{
+            padding:5px 50px;
+            display:none;
+            }
+            #fakebtn{
+            padding:5px 40px;
+            }
+            /*www.emilianocostanzo.com*/
+            #sign{
+            color:#1E2832;
+            position:fixed;
+            right:10px;
+            bottom:10px;
+            text-shadow:0px 0px 0px #1E2832;
+            transition:all.3s;
+            }
+            #sign:hover{
+            color:#1E2832;
+            text-shadow:0px 0px 5px #1E2832;
+            }
+			a {
+			color: #1E2832;
+			text-decoration: none;
+			}
+        </style>
+        <script>
+            window.console = window.console || function(t) {};
+            
+        </script>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+            
+              window.parent.postMessage("resize", "*");
+            
+            }
+            
+        </script>
+    </head>
+    <body translate="no">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="white">Secure Archive Extractor</h1>
+                    <p class="white">Maximum file size is 30 KB</p>
+                </div>
+            </div>
+            <form name="upload" method="post" action="#" enctype="multipart/form-data" accept-charset="utf-8">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 center">
+                        <div class="btn-container">
+                            <h1 class="imgupload"><i class="fa fa-archive" aria-hidden="true"></i></h1>
+                            <h1 class="imgupload ok"><i class="fa fa-check"></i></h1>
+                            <h1 class="imgupload stop"><i class="fa fa-times"></i></h1>
+                            <p id="namefile">Allowed Archives: Rar, Zip, Tar</p>
+                            <button type="button" id="btnup" class="btn btn-primary btn-lg">Browse for your archive!</button>
+                            <input type="file" value="" name="fileup" id="fileup">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" value="Submit!" class="btn btn-primary" id="submitbtn">
+                        <button type="button" class="btn btn-default" disabled="disabled" id="fakebtn">Submit! <i class="fa fa-minus-circle"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- <a href="http://www.emilianocostanzo.com" target="_blank" id="sign">EMI</a> -->
+        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script id="rendered-js">
+            $('#fileup').change(function () {
+            
+              //here we take the file extension and set an array of valid extensions
+            
+              var res = $('#fileup').val();
+            
+              var arr = res.split("\\");
+            
+              var filename = arr.slice(-1)[0];
+            
+              filextension = filename.split(".");
+            
+              filext = "." + filextension.slice(-1)[0];
+            
+              valid = [".tar", ".zip", ".rar"];
+            
+              //if file is not valid we show the error icon, the red alert, and hide the submit button
+            
+              if (valid.indexOf(filext.toLowerCase()) == -1) {
+            
+                $(".imgupload").hide("slow");
+            
+                $(".imgupload.ok").hide("slow");
+            
+                $(".imgupload.stop").show("slow");
+            
+            
+            
+                $('#namefile').css({ "color": "red", "font-weight": 700 });
+            
+                $('#namefile').html("File " + filename + " is not  an archive!!!!");
+            
+            
+            
+                $("#submitbtn").hide();
+            
+                $("#fakebtn").show();
+            
+              } else {
+            
+                //if file is valid we show the green alert and show the valid submit
+            
+                $(".imgupload").hide("slow");
+            
+                $(".imgupload.stop").hide("slow");
+            
+                $(".imgupload.ok").show("slow");
+            
+            
+            
+                $('#namefile').css({ "color": "green", "font-weight": 700 });
+            
+                $('#namefile').html(filename);
+            
+            
+            
+                $("#submitbtn").show();
+            
+                $("#fakebtn").hide();
+            
+              }
+            
+            });
+            
+            //# sourceURL=pen.js
+        </script>
+    <ul>
+		{% for file in files %}
+		<li>
+			<a href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+				<h3>{{ (request.path + '/' if request.path != '/' else '') + file }}</h3>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+
+    </body>
+</html>
+
