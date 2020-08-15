@@ -1,0 +1,15 @@
+{
+  "name": "landscape",
+  "version": "1.0.0",
+  "description": "Scenic place to relax and hacking is forbidden",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "vm2": "3.9.1"
+  },
+  "author": "Nimisha_Dughyala",
+  "license": "ISC"
+}

