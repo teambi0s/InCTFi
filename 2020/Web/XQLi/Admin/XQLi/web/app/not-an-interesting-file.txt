@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+   web:
+      # build the web server her
+
+   node:
+      # implement an A(dm)I(n) bot that would send only funny links to $(YOU_KNOW_WHO)
+
+   db:
+      #  database to be added here

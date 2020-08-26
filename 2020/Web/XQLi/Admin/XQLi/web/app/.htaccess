@@ -1,0 +1,2 @@
+php_flag output_buffering On
+php_flag display_errors Off
