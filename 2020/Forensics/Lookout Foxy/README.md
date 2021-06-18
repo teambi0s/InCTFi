@@ -22,4 +22,4 @@ $ jq -r -S '.logins[] | .hostname, .encryptedUsername, .encryptedPassword' login
 
 **Writeup**
 + [blog.bi0s.in](https://blog.bi0s.in/2020/08/03/Forensics/InCTFi20-LookoutFoxy/)
-+ [Nihith's blog](https://bolisettynihith.github.io/2020/08/03/InCTFi20-LookoutFoxy/)
++ [Nihith's blog](https://g4rud4.gitlab.io/2020/InCTFi20-LookoutFoxy/)
