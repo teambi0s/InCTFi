@@ -16,4 +16,4 @@
 **Writeup**: 
 
 + [blog.bi0s.in](https://blog.bi0s.in/2019/10/03/Forensics/InCTFi19-FreshFromTheOven/)
-+ [Nihith's blog](https://bolisettynihith.github.io/2019/10/03/InCTFi19-Fresh-From-the-Oven/)
++ [Nihith's blog](https://g4rud4.gitlab.io/2019/InCTFi19-Fresh-From-the-Oven/)
