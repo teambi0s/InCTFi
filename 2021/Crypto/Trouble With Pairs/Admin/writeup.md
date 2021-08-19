@@ -222,7 +222,7 @@ since:
                               = S1 + S2 + S3 + S4
 ```
 Now we know how BLS works let's get back to the script server.py,
-If you noticed the server takes all the votes and first verify the signatures using the aggregate if you're able to forge successfully then checks the individual signatures for consensus attack, if the server detects any forgery it returns `fake_flag` else it means you successfully braked the system hance it returns `flag`
+If you had noticed the server takes all the votes and first verify the signatures using the aggregate if you're able to forge successfully then checks the individual signatures for consensus attack, if the server detects any forgery it returns `fake_flag` else it means you successfully braked the system hance it returns `flag`
 
 > Note: we need both `flag` and `fake_flag` since the Original flag is XORed with `fake_flag`.
 
