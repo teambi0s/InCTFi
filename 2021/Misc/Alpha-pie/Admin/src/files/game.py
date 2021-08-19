@@ -17,7 +17,7 @@ def generate_puzzle(num):
             while True:
                 l1=random.randint(0,num-1)
                 l2=random.randint(0,num-1)
-                if puzz[l1][l2]==0 and mat[0][l1][l2]==0:
+                if mat[1][l1][l2]==0 and mat[0][l1][l2]==0:
                     puzz[l1][l2]=letter
                     break 
     return mat[0],mat[1]
@@ -72,7 +72,8 @@ Rules:
    eg : 0,0,0,1 (Will move letter at position 0,0 to position 0,1 if a letters is present at 0,0 and no letter is present at 0,1).
 7. Number of moves will be limited for each level.
 8. The game has a time limit of 'n' minutes.
-9. After you pass 9 levels you will ge the flag.
+9. You will lose the game if you enter certain number of invalid moves
+10. After you pass 9 levels you will ge the flag.
    Good luck ! Enjoy the game 👍''')
     if input("\nPress 'y' to start: ")=='y':
         pass
@@ -84,7 +85,7 @@ Rules:
         lev,sol=generate_puzzle(i)
         mov=0
         invalid=0
-        needed=find_moves(lev,sol)+i
+        needed=find_moves(lev,sol)
         print("Max number of moves allowed:",needed)
         while True:
             print_arr([lev,sol])
@@ -95,6 +96,10 @@ Rules:
                 continue
             try:
                 if lev[a][b] == 0 or lev[c][d] != 0:
+                    invalid+=1
+                    if invalid>=needed//2:
+                        print("You have lost :(")
+                        exit()
                     print("Enter valid position :(")
                     continue
                 if check(a,b,c,d):
@@ -102,12 +107,15 @@ Rules:
                 else:
                     print("Invalid Movement")
                     invalid+=1
+                    if invalid>=needed//2:
+                        print("You have lost :(")
+                        exit()
                     continue
                 mov+=1
                 if lev==sol:
                         print(f"Congrats Level Completed in {mov} moves :)")
                         break
-                if mov >= needed:
+                if mov >= needed or invalid>=needed//2  :
                     print("You have lost :(")
                     exit()
 
@@ -115,6 +123,4 @@ Rules:
                 print("Invalid :(")
                 invalid+=1
                 continue
-    print(os.getenv('FLAG')) 
-    
-    
+    print(os.getenv('FLAG'))
