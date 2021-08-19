@@ -85,7 +85,7 @@ Rules:
         lev,sol=generate_puzzle(i)
         mov=0
         invalid=0
-        needed=find_moves(lev,sol)
+        needed=find_moves(lev,sol)+i-1
         print("Max number of moves allowed:",needed)
         while True:
             print_arr([lev,sol])
