@@ -1,0 +1,21 @@
+<!doctype html>
+  <title>Download File</title>
+  <h1>Download File</h1>
+  <body class="body">
+     <div class="container" align="right">
+     <button onclick=window.location.href="{{url_for("logout")}}">logout</button>
+     </div>
+     <table>
+        <tr>
+            <th>filename</th>
+        </tr>
+        {%for file in files%}
+        <tr>
+            <td>{{file}}</td>
+            <td> <a href="/return-files?f={{file}}" target="blank"></a><button class='btn btn-default'>Download</button></a></td>
+        </tr>
+        
+        {%endfor%}
+      
+     </table>
+  </body>

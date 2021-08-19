@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  kqueue:
+    build:
+      context: .
+    working_dir: /home/ctf
+    network_mode: "host"
+    restart: unless-stopped
+    container_name: kqueue

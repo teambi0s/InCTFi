@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+    app:
+        build:
+          context: .
+        restart: unless-stopped
+        environment:
+            - FLAG=inctf{G00d_Job_e33ac7bae54893252e60c0187e793ef5d13d7dfa85fafa7984f8753b591247b9}
+        ports:
+            - "1337:1337"

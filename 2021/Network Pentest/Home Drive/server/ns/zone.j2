@@ -1,0 +1,7 @@
+$ORIGIN {{ domain }}.          ; designates the start of this zone file in the namespace
+$TTL  {{ ttl }}                ; default expiration time of all resource records without their own TTL value
+@               IN  SOA   {{ ns }}.{{ domain }}. admin.{{ domain }}. ( 2019022400 1d 2h 4w 1h )
+                IN  NS    {{ ns }}                    ; {{ ns }}.{{ domain }} is a nameserver for .{{ domain }}
+{% for hostname, addr in hosts.items() -%}
+{{ hostname }}  IN  A     {{ addr }}            ; IPv4 address for {{ hostname }}.{{ domain }}
+{% endfor -%}

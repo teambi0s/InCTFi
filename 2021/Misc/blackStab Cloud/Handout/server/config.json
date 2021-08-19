@@ -1,0 +1,6 @@
+{
+"region": "/opt/blackStab/region",
+"database": "blackStab",
+"db_user": "blackStabAdmin",
+"db_pass": "redacted"
+}

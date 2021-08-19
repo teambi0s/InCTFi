@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>login</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+      <!------ Include the above in your HEAD tag ---------->
+
+  </head>
+  <body>
+    <div id="login">
+        
+        <div class="container" style="">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12" style="height: 10%;">
+                        {% if err %}
+                        <div class="alert alert-danger" role="alert">{{err}}</div>
+                        {% endif %}
+                        <form id="login-form" class="form" action="/login" method="POST">
+                            <h3 class="text-center text-dark">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-dark">{{form.username.label}}</label><br>
+                                {{ form.username(class="form-control") }}
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-dark">{{form.password.label}}</label><br>
+                                {{ form.password(class="form-control") }}
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-dark"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                {{ form.submit(class="btn btn-dark btn-md") }}
+                                
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

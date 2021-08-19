@@ -1,0 +1,14 @@
+
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+    environment:
+      - FLAG="inctf{IDK_WHY_I_EVEN_USED_REDIS_HERE!!!}"
+    volumes:
+     - ./flask-server:/code
+  redis:
+    image: "redis"
+    

@@ -1,0 +1,6 @@
+flask
+werkzeug
+requests
+flask-wtf
+gunicorn
+jinja2-highlight

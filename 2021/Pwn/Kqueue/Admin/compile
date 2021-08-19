@@ -1,0 +1,8 @@
+#!/bin/bash
+
+gcc -fPIC -o exp exp.c --static
+#cp exp rootfs
+#file=$(ls | grep *.cpio | head -1)
+#cd rootfs
+#find . | cpio -o -H newc > ../$file
+#cd ..

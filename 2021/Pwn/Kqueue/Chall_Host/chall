@@ -1,0 +1,12 @@
+#!/bin/bash
+
+exec qemu-system-x86_64 \
+    -cpu kvm64 \
+    -m 512 \
+    -nographic \
+    -kernel "bzImage" \
+    -append "console=ttyS0 panic=-1 pti=off kaslr quiet" \
+    -monitor /dev/null \
+    -initrd "./rootfs.cpio" \
+    -net user \
+    -net nic

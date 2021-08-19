@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  trouble:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: trouble
+    ports:
+      - "1337:1337"

@@ -1,0 +1,37 @@
+1627582266428	geckodriver	INFO	Listening on 127.0.0.1:43233
+1627582266433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXwD3Wb"
+
+(firefox:32326): Gtk-WARNING **: 23:41:06.484: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+1627582266852	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:32414): Gtk-WARNING **: 23:41:07.268: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32424): Gtk-WARNING **: 23:41:07.375: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXwD3Wb/search.json.mozlz4", (void 0)))
+
+(firefox:32326): GLib-GIO-WARNING **: 23:41:07.646: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1627582268152	Marionette	INFO	Listening on port 39957
+1627582268275	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32531): Gtk-WARNING **: 23:41:08.281: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+1627582273610	Marionette	INFO	Stopped listening on port 39957
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627582362103	geckodriver	INFO	Listening on 127.0.0.1:41343
+1627582362109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehUQYkO"
+
+(firefox:32811): Gtk-WARNING **: 23:42:42.155: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+1627582362463	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:32893): Gtk-WARNING **: 23:42:42.845: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32903): Gtk-WARNING **: 23:42:42.986: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:32811): GLib-GIO-WARNING **: 23:42:43.103: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehUQYkO/search.json.mozlz4", (void 0)))
+1627582363636	Marionette	INFO	Listening on port 44161
+1627582363732	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32996): Gtk-WARNING **: 23:42:43.944: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+1627582368932	Marionette	INFO	Stopped listening on port 44161

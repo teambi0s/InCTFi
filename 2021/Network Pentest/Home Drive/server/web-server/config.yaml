@@ -1,0 +1,20 @@
+racks:
+  - name: rack1
+    domain: rack1.home.drive
+    user: rack1
+    password: brutablebrutablebrutablepasssssss
+
+  - name: rack2
+    domain: rack2.home.drive
+    user: rack2
+    password: brutablebrutablebrutablepasssssss
+
+  - name: rack3
+    domain: rack3.home.drive
+    user: rack3
+    password: brutablebrutablebrutablepasssssss
+
+  - name: rack4
+    domain: rack4.home.drive
+    user: rack4
+    password: brutablebrutablebrutablepasssssss

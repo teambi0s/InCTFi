@@ -1,0 +1,14 @@
+cargo-features = ["strip"]
+
+[package]
+name = "main_replica"
+version = "0.1.0"
+authors = ["Akul Pillai <contact@akulpillai.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.release]
+strip = true

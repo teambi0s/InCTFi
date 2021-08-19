@@ -11,7 +11,7 @@
 |[Misc](Misc/)|6|
 
 ## Directory Structure
-There are five sub-directories in this directory (one for each field):
+There are seven sub-directories in this directory (one for each field):
 1. Pwn
 2. Crypto
 3. Web

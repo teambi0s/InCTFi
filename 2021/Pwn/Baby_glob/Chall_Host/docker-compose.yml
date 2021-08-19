@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  baby_glob:
+    build:
+      context: . 
+    working_dir: /home/ctf
+    container_name: baby_glob
+    ports:
+      - "1299:1337"
+    restart: unless-stopped

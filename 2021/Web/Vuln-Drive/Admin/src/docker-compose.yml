@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+    app:
+        image: ghcr.io/an33-sh/challenges/dumpp
+        build:
+          context: .
+        restart: unless-stopped
+        environment: 
+            - UPLOAD_FOLDER=./uploads
+            - SECRET_KEY=36abc62427e21e538d57454cad366e30
+            - KEY_SECRET=36abc62427e21e538d57454cad366e30
+        ports: 
+            - "5000:5000"

@@ -1,0 +1,6 @@
+Flask==1.1.2
+redis==3.3.11
+rq==1.2.0
+rq-dashboard==0.5.1
+requests==2.20.0
+requests-testadapter==0.3.0
