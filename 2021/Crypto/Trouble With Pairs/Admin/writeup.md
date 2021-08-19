@@ -173,21 +173,21 @@ if __name__ == "__main__":
         sys.exit()
 ```
 ## **Observation**
-If you noticed the signing has been done by using bls signatures,
-so let's just talk how BLS works
+If you had noticed the signing has been done by using bls signatures,
+so let's just talk about how BLS works
     
-Before that, if you don't know about `Elliptic Curve Pairing` you can learn it [here](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627).
+Before we begin, if you are new to ECC pairing, you can refer to this article here: [link](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627).
 
 ### BLS
-In 2001, Boneh, Lynn and Shacham (BLS) invented an elagant signature scheme based on pairing. Let's assume Ailice's private key is x, her public key is X = x * G, H be a function which maps the message to point on the elliptic curve E, Usually it will be the lift_x of the hash(message), but I'm not sure it the same is implemented in py_ecc module, The signature is simply S = x * H(m) for message m.
+In 2001, Boneh, Lynn, and Shacham (BLS) invented an elegant signature scheme based on pairing. Let's assume Alice's private key is x, her public key is X = x * G, H be a function which maps the message to point on the elliptic curve E, The signature is simply S = x * H(m) for message m.
 
-To verify, we check weather e(G,S) is equal to e(X,H(m)), 
+To verify, we check whether e(G,S) is equal to e(X,H(m)), 
 since we know that:
 ```
     e(G,S) = e(G,x*H(m)) = e(G,H(m))^x = e(x*G,H(m)) = e(X,H(m))
 ``` 
 ### BLS Signature Aggregation
-Bls signature has an attractive security property that is uused in Eth2. it allows signature aggrregation.Let's assume we have n users, each has Private Key xi, Public key Xi = xi * G (same generator for all user's). Each user signs its own message mi as Si = xi * H(mi). Now, in verification, instead of checking n signatures Si individually, we want to verify a single aggregate signature.
+The Bls signature has an attractive security property that is used in Eth2. it allows signature aggregation. Let's assume we have n users, each has Private Key xi, Public key Xi = xi * G (same generator for all users). Each user signs its own message mi as Si = xi * H(mi). Now, in verification, instead of checking n signatures Si individually, we want to verify a single aggregate signature.
 
 To achieve the prious goal,  we compute an aggregate signature S = S1 + S2 + ... + Sn.
 To verify S, we chack whether e(G,S) is equal to e(X1,H(m1)) * e(X2,H(m2)) * ... * e(Xn,H(mn)), since we know that:
@@ -198,7 +198,7 @@ To verify S, we chack whether e(G,S) is equal to e(X1,H(m1)) * e(X2,H(m2)) * ...
                 = e(X1,H(m1)) * e(X2,H(m2)) * ... * e(Xn,H(mn))
 ```
 ### Consensus Attacks
-At a hich level, the attacker's goal is to create a set of invalid individual signatures, but their aggregate signature is valid. Therefore, some users will see valid signatures while others see invalid signatures, i.e., the views among users are split.
+At a high level, the attacker's goal is to create a set of invalid individual signatures, but their aggregate signature is valid. Therefore, some users will see valid signatures while others see invalid signatures, i.e., the views among users are split.
 
 Let's say there are 4 messages and signatures:
 ```
@@ -222,11 +222,11 @@ since:
                               = S1 + S2 + S3 + S4
 ```
 Now we know how BLS works let's get back to the script server.py,
-If you noticed the server takes all the votes and first verify the signatures using the aggregate if you're able to forge successfully then checks the individual signatures for consensus attack,if the server detects any forgery it returns `fake_flag` else it means you successfully braked the system hance it returns `flag`
+If you had noticed the server takes all the votes and first verify the signatures using the aggregate if you're able to forge successfully then checks the individual signatures for consensus attack, if the server detects any forgery it returns `fake_flag` else it means you successfully braked the system hance it returns `flag`
 
-> Note: we need both `flag` and `fake_flag` since the Original flag is xored with `fake_flag`.
+> Note: we need both `flag` and `fake_flag` since the Original flag is XORed with `fake_flag`.
 
-## Expoit Idea
+## Exploit Idea
 
 ### Recovering Fake Flag
 here, we can make use of **Consensus attack** to recover **fake_flag**, or simply we can swap few signatures to trick the server.
